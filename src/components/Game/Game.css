@@ -1,0 +1,54 @@
+.wrapper {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #222222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.winner__salute {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100vh;
+}
+
+.winner__salute img {
+  width: 100%;
+  height: 100vh;
+}
+
+.start__btn {
+  width: 200px;
+  height: 35px;
+  margin-bottom: 25px;
+  color: white;
+  outline: none;
+  cursor: pointer;
+  background-color: #222222;
+  border: 1px solid white;
+  transition: all 0.3s;
+  z-index: 999;
+}
+.start__btn:hover {
+  background-color: #fff;
+  color: #222222;
+}
+
+.endGame {
+  
+}
+
+.game__info {
+  margin-top: 25px;
+  font-size: 25px;
+  color: white;
+  z-index: 1000;
+
+}
